@@ -63,6 +63,12 @@ Each folder contains:
   - [Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)](https://www.youtube.com/watch?v=MTHGoGUFpvE) - Alta3 Research
   - [Kubernetes Crash Course for Absolute Beginners [NEW]](https://www.youtube.com/watch?v=s_o8dwzRlu4) - TechWorld with Nana
 
+Completed `Kubernetes Crash Course for Absolute Beginners` from TechWorld with Nana on 5-Nov-2025.
+
+- Introduction to Kubernetes concepts and main components.
+- Installed Minikube and kubectl locally.
+- Deployed sample applications and practiced kubectl commands.
+
 #### Phase 2: Hands-on Practice (November/December 2025)
 
 - **Udemy Course** 💰
