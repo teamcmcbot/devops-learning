@@ -41,7 +41,7 @@ Each folder contains:
   - **Provider**: NTUC Learning Hub
   - **Duration**: 5 days intensive training
   - **Status**: ✅ Completed with Certificate
-  - **Certificate**: [VLC-IT19A07-25-0654.pdf](./completed-courses/ntuc-learning-hub/VLC-IT19A07-25-0654.pdf)
+  - **Certificate**: [VLC-IT19A07-25-0654.pdf](<./completed-courses/ntuc-learning-hub/DEVOPS%20HANDS-ON%20TRAINING%20(TERRAFORM,%20JENKINS,%20GITHUB,%20SONARQUBE)/VLC-IT19A07-25-0654.pdf>)
   - **Topics Covered**:
     - DevOps fundamentals and culture
     - CI/CD pipeline implementation
