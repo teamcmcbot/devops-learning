@@ -69,6 +69,10 @@ Completed `Kubernetes Crash Course for Absolute Beginners` from TechWorld with N
 - Installed Minikube and kubectl locally.
 - Deployed sample applications and practiced kubectl commands.
 
+Completed `Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)` from Alta3 Research on 5-Nov-2025.
+
+- More in-depth basic coverage of Kubernetes architecture and features.
+
 #### Phase 2: Hands-on Practice (November/December 2025)
 
 - **Udemy Course** 💰

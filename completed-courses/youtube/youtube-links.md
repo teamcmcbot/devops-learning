@@ -2,7 +2,7 @@
 
 ## [Alta3 Research YouTube Channel](https://www.youtube.com/c/Alta3Research)
 
-[Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)](https://www.youtube.com/watch?v=MTHGoGUFpvE) - IN PROGRESS
+[Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)](https://www.youtube.com/watch?v=MTHGoGUFpvE) - COMPLETED
 
 Timestamps:
 
@@ -16,7 +16,7 @@ Timestamps:
 - 0:44:56 – Requests & Limits
 - 0:51:01 – Probes
 - 0:58:20 – kubectl exec & cp
-- 1:05:34 – ConfigMaps -> In Progress
+- 1:05:34 – ConfigMaps
 - 1:09:49 – Volume Mounting
 - 1:18:05 – Secrets
 - 1:21:16 – Viewing Logs
@@ -35,3 +35,5 @@ Timestamps:
 ## [TechWorld with Nana YouTube Channel](https://www.youtube.com/c/TechWorldwithNana)
 
 [Kubernetes Crash Course for Absolute Beginners [NEW]](https://www.youtube.com/watch?v=s_o8dwzRlu4) - COMPLETED
+
+[Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do) - PLANNED
