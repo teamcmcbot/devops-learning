@@ -78,6 +78,9 @@ Completed `Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)
 - **Udemy Course** 💰
   - [Kubernetes Hands-On - Deploy Microservices to the AWS Cloud](https://www.udemy.com/course/kubernetes-microservices/)
   - Focus: Real-world AWS deployment scenarios
+  - Status: In-Progress
+  - Start Date: 6-Nov-2025
+    - 6-Nov-2025: Completed Section 1 to 10 (pods, services, replicasets, deployments, networking fundamentals)
 
 #### Phase 3: Advanced Projects (Future)
 
