@@ -81,6 +81,8 @@ Completed `Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)
   - Status: In-Progress
   - Start Date: 6-Nov-2025
     - 6-Nov-2025: Completed Section 1 to 10 (pods, services, replicasets, deployments, networking fundamentals)
+    - 7-Nov-2025: Completed Section 11 to 12 (microservice, persistent volumes)
+    - 10-Nov-2025: Completed Section 13 to 20 (Deployed to AWS via EKS, logging with EFK stack)
 
 #### Phase 3: Advanced Projects (Future)
 

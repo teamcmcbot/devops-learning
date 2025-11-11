@@ -75,4 +75,7 @@ Check the version with "kubectl version --client"
 
 eksctl create cluster --name fleetman --nodes-min=3
 
+## set instance type
+eksctl create cluster --name fleetman --nodes-min=3 --node-type t3.medium
+
 
