@@ -38,10 +38,14 @@ Each folder contains:
 #### October 2025
 
 - **DevOps Hands-on Training** (Oct 27 - Oct 31, 2025)
+
   - **Provider**: NTUC Learning Hub
   - **Duration**: 5 days intensive training
   - **Status**: ✅ Completed with Certificate
-  - **Certificate**: [VLC-IT19A07-25-0654.pdf](<./completed-courses/ntuc-learning-hub/DEVOPS%20HANDS-ON%20TRAINING%20(TERRAFORM,%20JENKINS,%20GITHUB,%20SONARQUBE)/VLC-IT19A07-25-0654.pdf>)
+  - **Certificate**:
+
+    ![DevOps Hands-on Certificate](<./completed-courses/ntuc-learning-hub/DEVOPS%20HANDS-ON%20TRAINING%20(TERRAFORM,%20JENKINS,%20GITHUB,%20SONARQUBE)/DevOps-Hands-on_Certificate.png>)
+
   - **Topics Covered**:
     - DevOps fundamentals and culture
     - CI/CD pipeline implementation
@@ -66,6 +70,10 @@ Each folder contains:
   - [Kubernetes Hands-On - Deploy Microservices to the AWS Cloud](https://www.udemy.com/course/kubernetes-microservices/) ✅
   - **Status**: ✅ Completed on 14-Nov-2025
   - **Duration**: 8 days (6-Nov to 14-Nov-2025)
+  - **Certificate**:
+
+    ![Kubernetes Udemy Course Completion Certificate](<./completed-courses/udemy/Kubernetes Hands-On - Deploy Microservices to the AWS Cloud/udemy-hands-on/udemy_course_completion.png>)
+
   - **Key Achievements**:
     - Deployed microservices to AWS EKS
     - Implemented monitoring with Prometheus and Grafana
