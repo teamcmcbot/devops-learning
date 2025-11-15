@@ -53,49 +53,64 @@ Each folder contains:
   - Day 4: Ansible basics.
   - Day 5: Quiz (theory and hands-on assessment)
 
-### 📋 Current Learning Plan (November 2025)
+#### November 2025
 
-**Focus: Kubernetes Container Orchestration**
-
-#### Phase 1: Foundation (November 2025)
+**Kubernetes Container Orchestration - ✅ COMPLETED**
 
 - **YouTube Free Courses** 🎥
-  - [Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)](https://www.youtube.com/watch?v=MTHGoGUFpvE) - Alta3 Research
-  - [Kubernetes Crash Course for Absolute Beginners [NEW]](https://www.youtube.com/watch?v=s_o8dwzRlu4) - TechWorld with Nana
 
-Completed `Kubernetes Crash Course for Absolute Beginners` from TechWorld with Nana on 5-Nov-2025.
-
-- Introduction to Kubernetes concepts and main components.
-- Installed Minikube and kubectl locally.
-- Deployed sample applications and practiced kubectl commands.
-
-Completed `Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)` from Alta3 Research on 5-Nov-2025.
-
-- More in-depth basic coverage of Kubernetes architecture and features.
-
-#### Phase 2: Hands-on Practice (November/December 2025)
+  - [Kubernetes Zero to Hero: The Complete Beginner's Guide (2025 Edition)](https://www.youtube.com/watch?v=MTHGoGUFpvE) - Alta3 Research ✅
+  - [Kubernetes Crash Course for Absolute Beginners [NEW]](https://www.youtube.com/watch?v=s_o8dwzRlu4) - TechWorld with Nana ✅
 
 - **Udemy Course** 💰
-  - [Kubernetes Hands-On - Deploy Microservices to the AWS Cloud](https://www.udemy.com/course/kubernetes-microservices/)
-  - Focus: Real-world AWS deployment scenarios
-  - Status: In-Progress
-  - Start Date: 6-Nov-2025
-    - 6-Nov-2025: Completed Section 1 to 10 (pods, services, replicasets, deployments, networking fundamentals)
-    - 7-Nov-2025: Completed Section 11 to 12 (microservice, persistent volumes)
-    - 10-Nov-2025: Completed Section 13 to 20 (Deployed to AWS via EKS, logging with EFK stack)
+  - [Kubernetes Hands-On - Deploy Microservices to the AWS Cloud](https://www.udemy.com/course/kubernetes-microservices/) ✅
+  - **Status**: ✅ Completed on 14-Nov-2025
+  - **Duration**: 8 days (6-Nov to 14-Nov-2025)
+  - **Key Achievements**:
+    - Deployed microservices to AWS EKS
+    - Implemented monitoring with Prometheus and Grafana
+    - Set up logging with EFK stack
+    - Created CI/CD pipelines with Jenkins
+    - Built Helm charts for application deployment
+    - Hands-on experience with autoscaling, ConfigMaps, Secrets, and Ingress controllers
 
-#### Phase 3: Advanced Projects (Future)
+### 📋 Current Learning Plan (November 2025)
+
+**Focus: Infrastructure as Code with Terraform**
+
+#### Phase 1: Terraform Fundamentals & AWS Integration (November 2025)
+
+- **Udemy Course** 💰
+  - [Terraform on AWS with SRE & IaC DevOps | Real-World 20 Demos](https://www.udemy.com/course/terraform-on-aws-with-sre-iac-devops-real-world-demos)
+  - **Status**: 🟡 In-Progress
+  - **Start Date**: 15-Nov-2025
+  - **Focus**: Real-world Terraform implementation with AWS
+  - **Key Learning Objectives**:
+    - Master Terraform with 22 real-world demos
+    - Build AWS VPC 3-Tier Architecture using Terraform
+    - Create various Load Balancers (CLB, ALB, NLB) with Terraform
+    - Implement DNS to DB Architecture on AWS
+    - Build Autoscaling with Launch Configuration and Launch Templates
+    - Set up AWS CloudWatch Alarms using Terraform
+    - Implement IaC DevOps with AWS CodePipeline
+    - Master Terraform State management (Local and Remote Backends)
+    - Learn and implement all Terraform Provisioners
+    - Work with Terraform Modules (Public and Local Modules)
+
+#### Phase 2: Advanced Projects & Continuous Learning (Future)
 
 - **Continuous Learning** 🚀
   - [DevOps Projects | Real Time DevOps & GitOps Projects](https://www.udemy.com/course/devopsprojects/)
   - [AWS Certified CloudOps Engineer Associate SOA-C03 2025](https://www.udemy.com/course/aws-certified-cloudops-associate/)
 
-### 🎯 Why Kubernetes Next?
+### 🎯 Why Terraform Next?
 
-- **Natural Progression**: Builds on Jenkins CI/CD knowledge from NTUC course
-- **Industry Relevance**: High demand for Kubernetes skills
-- **Practical Application**: Deploy applications built in CI/CD pipelines
-- **Cloud-Native Foundation**: Essential for modern DevOps practices
+- **Natural Progression**: Builds on Kubernetes and AWS knowledge from previous courses
+- **Infrastructure as Code**: Essential skill for modern DevOps practices
+- **AWS Integration**: Leverages existing AWS EKS experience
+- **SRE Focus**: Site Reliability Engineering principles with infrastructure automation
+- **Real-world Application**: 22 practical demos for hands-on learning
+- **Career Advancement**: High demand for Terraform skills in the market
 
 ## 📖 Resources
 

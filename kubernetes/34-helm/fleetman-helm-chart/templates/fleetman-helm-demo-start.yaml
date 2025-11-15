@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-webapp
+spec:
+  selector:
+    matchLabels:
+      app: webapp
+  replicas: {{ .Values.webApp.replicaCount }}
+  template: # template for the pods
+    metadata:
+      labels:
+        app: webapp
+    spec:
+      containers:
+{{- include "fleetman-helm-chart.webapp-container" . | nindent 8 }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-fleetman-webapp
+
+spec:
+  selector:
+    app: webapp
+
+  ports:
+    - name: http
+      port: 80
+      nodePort: {{ .Values.webApp.nodePort }}
+
+  type: NodePort
