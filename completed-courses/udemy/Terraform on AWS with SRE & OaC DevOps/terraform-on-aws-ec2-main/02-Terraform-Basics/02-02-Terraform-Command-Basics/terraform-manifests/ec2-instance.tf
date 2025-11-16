@@ -17,5 +17,5 @@ provider "aws" {
 # Resource Block
 resource "aws_instance" "ec2demo" {
   ami           = "ami-0cae6d6fe6048ca2c" # Amazon Linux 2023 AMI 2023.9.20251110.1 x86_64 HVM kernel-6.1
-  instance_type = "t2.micro"
+  instance_type = "t3.nano"
 }

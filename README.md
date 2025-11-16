@@ -67,6 +67,7 @@ Each folder contains:
   - [Kubernetes Crash Course for Absolute Beginners [NEW]](https://www.youtube.com/watch?v=s_o8dwzRlu4) - TechWorld with Nana ✅
 
 - **Udemy Course** 💰
+
   - [Kubernetes Hands-On - Deploy Microservices to the AWS Cloud](https://www.udemy.com/course/kubernetes-microservices/) ✅
   - **Status**: ✅ Completed on 14-Nov-2025
   - **Duration**: 8 days (6-Nov to 14-Nov-2025)
@@ -104,6 +105,8 @@ Each folder contains:
     - Master Terraform State management (Local and Remote Backends)
     - Learn and implement all Terraform Provisioners
     - Work with Terraform Modules (Public and Local Modules)
+  - **Progress**:
+    - 16-Nov-2025: Completed initial terraform setup and successfully launched EC2 instance using latest Amazon Linux 2023 AMI via terraform.
 
 #### Phase 2: Advanced Projects & Continuous Learning (Future)
 

@@ -130,8 +130,8 @@ _Course completion and next steps_
 
 ## 📈 Progress Tracking
 
-- [ ] Section 1: Introduction
-- [ ] Section 2: Terraform Basics
+- [x] Section 1: Introduction
+- [x] Section 2: Terraform Basics
 - [ ] Section 3: Terraform Settings, Providers and Resources
 - [ ] Section 4: Terraform Input Variables, Datasources and Output Values
 - [ ] Section 5: Terraform Loops, MetaArguments, Splat Operator and Functions
