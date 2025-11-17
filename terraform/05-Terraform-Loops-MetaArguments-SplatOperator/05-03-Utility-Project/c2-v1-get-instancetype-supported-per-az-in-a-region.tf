@@ -2,12 +2,12 @@
 data "aws_ec2_instance_type_offerings" "my_ins_type1" {
   filter {
     name   = "instance-type"
-    values = ["t3.micro"]
+    values = ["t3.nano"]
   }
   filter {
-    name = "location"
-    #values = ["us-east-1a"]
-    values = ["us-east-1e"]
+    name   = "location"
+    values = ["us-east-1a"]
+    # values = ["us-east-1e"]
   }
   location_type = "availability-zone"
 }
