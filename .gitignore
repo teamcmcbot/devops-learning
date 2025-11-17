@@ -1,1 +1,72 @@
 .DS_Store
+
+# Terraform Files and Metadata
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files contain sensitive data and should never be committed
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negation pattern
+# !example_override.tf
+
+# Include .tfplan files you do wish to add to version control using negation pattern
+*.tfplan
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore lock files (uncomment if you want to ignore them)
+# .terraform.lock.hcl
+
+# AWS credentials and config files
+.aws/
+aws.pem
+*.pem
+
+# SSH keys
+*.ppk
+*.pub
+
+# Log files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.backup
+*.bak
+
+# Temporary directories
+tmp/
+temp/
