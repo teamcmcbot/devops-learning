@@ -83,6 +83,39 @@ Each folder contains:
     - Built Helm charts for application deployment
     - Hands-on experience with autoscaling, ConfigMaps, Secrets, and Ingress controllers
 
+**AWS CloudFormation Infrastructure as Code - ✅ COMPLETED**
+
+- **Udemy Course** 💰
+  - [AWS CloudFormation Master Class v2 [2024]](https://www.udemy.com/course/aws-cloudformation-master-class)
+  - **Status**: ✅ Completed
+  - **Certificate**: [UC-634009ff-d479-4dcc-b214-42b09eb0f237](https://www.udemy.com/certificate/UC-634009ff-d479-4dcc-b214-42b09eb0f237/)
+  - **Key Topics Covered**:
+    - YAML syntax and CloudFormation templates
+    - Parameters, SSM Parameter Types, and Pseudo Parameters
+    - Resources and Advanced Resources (DependsOn, DeletionPolicy, UpdateReplacePolicy, CreationPolicy, UpdatePolicy)
+    - Mappings, Outputs & Cross Stack References, Conditions, Rules, Metadata
+    - CFN Init, Drift Detection, Nested Stacks, StackSets
+    - Deployment Options (ChangeSets, StackPolicy, Rollback, Termination, Service Roles)
+    - Continuous Delivery with CodePipeline
+    - Custom Resources (Lambda & SNS), WaitCondition, Dynamic References
+    - Registry, 3rd-party Resource Types & Modules, Resource Imports
+    - SAM (Serverless Application Model) and CDK (Cloud Development Kit) Intro
+    - Macros, Template Validation, and Best Practices
+
+**GitHub Actions CI/CD Automation - ✅ COMPLETED**
+
+- **Udemy Course** 💰
+  - [GitHub Actions - The Complete Guide](https://www.udemy.com/course/github-actions-the-complete-guide)
+  - **Status**: ✅ Completed
+  - **Certificate**: [UC-67a15a47-8267-43b4-a622-2a1f242d6583](https://www.udemy.com/certificate/UC-67a15a47-8267-43b4-a622-2a1f242d6583/)
+  - **Key Learning Outcomes**:
+    - Build automated workflows & processes with GitHub Actions
+    - Automate code-based and project-based tasks
+    - Run simple and complex workflows on various triggers
+    - Build powerful CI/CD workflows with runtime configuration, security and conditional execution
+    - Create custom actions and leverage public community solutions
+    - Implement security best practices for GitHub Action workflows
+
 ### 📋 Current Learning Plan (November 2025)
 
 **Focus: Infrastructure as Code with Terraform**
@@ -134,11 +167,8 @@ Each folder contains:
 
 ### Online Learning Platforms
 
-- [A Cloud Guru](https://acloudguru.com/)
-- [Linux Academy](https://linuxacademy.com/)
-- [Pluralsight](https://www.pluralsight.com/)
 - [Udemy](https://www.udemy.com/)
+- [Linux Academy](https://linuxacademy.com/)
+- [KodeKloud](https://www.kodekloud.com/)
 
 ---
-
-Happy learning! 🎓
