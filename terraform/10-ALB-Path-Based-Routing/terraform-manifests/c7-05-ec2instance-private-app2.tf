@@ -1,17 +1,17 @@
 # AWS EC2 Instance Terraform Module
 # EC2 Instances that will be created in VPC Private Subnets
-module "ec2_private" {
+module "ec2_private_app2" {
   depends_on = [module.vpc] # VERY VERY IMPORTANT else userdata webserver provisioning will fail
   source     = "terraform-aws-modules/ec2-instance/aws"
   #version = "2.17.0"
   #version = "5.6.0"
   version = "6.1.4"
   # insert the 10 required variables here
-  name          = "${var.environment}-vm"
+  name          = "${var.environment}-app2"
   ami           = data.aws_ami.amzlinux2023.id
   instance_type = var.instance_type
   key_name      = var.instance_keypair
-  user_data     = file("${path.module}/app1-install.sh")
+  user_data     = file("${path.module}/app2-install.sh")
   tags          = local.common_tags
 
 

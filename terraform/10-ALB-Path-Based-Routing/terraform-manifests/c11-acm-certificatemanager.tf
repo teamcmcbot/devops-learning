@@ -5,12 +5,13 @@ module "acm" {
   #version = "5.0.0"
   version = "6.1.1"
 
-  domain_name = trimsuffix(data.aws_route53_zone.mydomain.name, ".")
+  domain_name = "apps.${var.domain_name}" # Changed: specific subdomain only
   zone_id     = data.aws_route53_zone.mydomain.zone_id
 
-  subject_alternative_names = [
-    "*.${var.domain_name}"
-  ]
+  # Removed subject_alternative_names - not needed for single domain
+  # subject_alternative_names = [
+  #   "apps.${var.domain_name}"
+  # ]
   tags = local.common_tags
 
   # Module Upgrade Change-1
