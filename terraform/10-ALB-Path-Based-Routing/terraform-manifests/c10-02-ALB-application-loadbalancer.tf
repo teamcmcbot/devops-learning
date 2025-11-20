@@ -2,8 +2,8 @@
 module "alb" {
   source = "terraform-aws-modules/alb/aws"
   #version = "5.16.0"
-  version = "9.4.0"
-  #version = "10.2.0"
+  #version = "9.4.0"
+  version = "10.2.0"
 
   name               = "${local.name}-alb"
   load_balancer_type = "application"
@@ -47,16 +47,17 @@ module "alb" {
         # Rule-1: myapp1-rule
         myapp1-rule = {
           actions = [{
-            type = "weighted-forward"
-            target_groups = [
-              {
-                target_group_key = "mytg1"
-                weight           = 1
+            weighted_forward = {
+              target_groups = [
+                {
+                  target_group_key = "mytg1"
+                  weight           = 1
+                }
+              ]
+              stickiness = {
+                enabled  = true
+                duration = 3600
               }
-            ]
-            stickiness = {
-              enabled  = true
-              duration = 3600
             }
           }]
           conditions = [{
@@ -68,16 +69,17 @@ module "alb" {
         # Rule-2: myapp2-rule
         myapp2-rule = {
           actions = [{
-            type = "weighted-forward"
-            target_groups = [
-              {
-                target_group_key = "mytg2"
-                weight           = 1
+            weighted_forward = {
+              target_groups = [
+                {
+                  target_group_key = "mytg2"
+                  weight           = 1
+                }
+              ]
+              stickiness = {
+                enabled  = true
+                duration = 3600
               }
-            ]
-            stickiness = {
-              enabled  = true
-              duration = 3600
             }
           }]
           conditions = [{
