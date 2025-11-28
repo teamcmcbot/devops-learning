@@ -1,0 +1,38 @@
+#! /bin/bash
+# Updated for Amazon Linux 2023 compatibility
+
+# Update system
+sudo dnf update -y
+
+# Install Java 11 Amazon Corretto for Amazon Linux 2023 (replaces amazon-linux-extras java-openjdk11)
+sudo dnf install -y java-11-amazon-corretto java-11-amazon-corretto-devel
+
+# Create directory with proper ownership (fixes permission issues)
+sudo mkdir -p /home/ec2-user/app3-usermgmt
+sudo chown -R ec2-user:ec2-user /home/ec2-user/app3-usermgmt
+cd /home/ec2-user/app3-usermgmt
+
+# Download WAR file
+wget https://github.com/stacksimplify/temp1/releases/download/1.0.0/usermgmt-webapp.war -P /home/ec2-user/app3-usermgmt 
+
+# Set environment variables for database connection
+export DB_HOSTNAME=${rds_db_endpoint}
+export DB_PORT=3306
+export DB_NAME=webappdb
+export DB_USERNAME=dbadmin
+export DB_PASSWORD=dbpassword11
+
+# Verify Java installation
+java -version
+
+# Kill any existing processes (cleanup)
+pkill -f "usermgmt-webapp.war" || true
+sleep 2
+
+# Start the application with proper logging (use relative path since we're in the directory)
+nohup java -jar usermgmt-webapp.war > ums-start.log 2>&1 &
+
+# Log completion (use relative paths since we're in the directory)
+echo "App3 UMS installation completed at $(date)" >> install.log
+echo "Application PID: $!" >> install.log
+echo "Check logs with: tail -f /home/ec2-user/app3-usermgmt/ums-start.log" >> install.log
