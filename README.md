@@ -116,45 +116,45 @@ Each folder contains:
     - Create custom actions and leverage public community solutions
     - Implement security best practices for GitHub Action workflows
 
-### 📋 Current Learning Plan (November 2025)
+#### December 2025
 
-**Focus: Infrastructure as Code with Terraform**
-
-#### Phase 1: Terraform Fundamentals & AWS Integration (November 2025)
+**Terraform on AWS with SRE & IaC DevOps - ✅ COMPLETED**
 
 - **Udemy Course** 💰
   - [Terraform on AWS with SRE & IaC DevOps | Real-World 20 Demos](https://www.udemy.com/course/terraform-on-aws-with-sre-iac-devops-real-world-demos)
-  - **Status**: 🟡 In-Progress
+  - **Status**: ✅ Completed
   - **Start Date**: 15-Nov-2025
+  - **Completion Date**: 3-Dec-2025
+  - **Certificate**: [UC-6088cdd3-4703-4536-ab8b-5bb452f4652c](https://www.udemy.com/certificate/UC-6088cdd3-4703-4536-ab8b-5bb452f4652c/)
   - **Focus**: Real-world Terraform implementation with AWS
-  - **Key Learning Objectives**:
-    - Master Terraform with 22 real-world demos
-    - Build AWS VPC 3-Tier Architecture using Terraform
-    - Create various Load Balancers (CLB, ALB, NLB) with Terraform
-    - Implement DNS to DB Architecture on AWS
-    - Build Autoscaling with Launch Configuration and Launch Templates
+  - **Key Learning Outcomes**:
+    - Mastered Terraform with 22 real-world demos
+    - Built AWS VPC 3-Tier Architecture using Terraform
+    - Created various Load Balancers (CLB, ALB, NLB) with Terraform
+    - Implemented DNS to DB Architecture on AWS
+    - Built Autoscaling with Launch Configuration and Launch Templates
     - Set up AWS CloudWatch Alarms using Terraform
-    - Implement IaC DevOps with AWS CodePipeline
-    - Master Terraform State management (Local and Remote Backends)
-    - Learn and implement all Terraform Provisioners
-    - Work with Terraform Modules (Public and Local Modules)
-  - **Progress**:
-    - 16-Nov-2025: Completed initial terraform setup and successfully launched EC2 instance using latest Amazon Linux 2023 AMI via terraform.
+    - Implemented IaC DevOps with AWS CodePipeline
+    - Mastered Terraform State management (Local and Remote Backends)
+    - Learned and implemented all Terraform Provisioners
+    - Worked with Terraform Modules (Public and Local Modules)
 
-#### Phase 2: Advanced Projects & Continuous Learning (Future)
+### 📋 Current Learning Plan (December 2025)
+
+**Focus: Advanced Projects & AWS Certification**
+
+#### Upcoming Courses
 
 - **Continuous Learning** 🚀
   - [DevOps Projects | Real Time DevOps & GitOps Projects](https://www.udemy.com/course/devopsprojects/)
   - [AWS Certified CloudOps Engineer Associate SOA-C03 2025](https://www.udemy.com/course/aws-certified-cloudops-associate/)
 
-### 🎯 Why Terraform Next?
+### 🎯 What's Next?
 
-- **Natural Progression**: Builds on Kubernetes and AWS knowledge from previous courses
-- **Infrastructure as Code**: Essential skill for modern DevOps practices
-- **AWS Integration**: Leverages existing AWS EKS experience
-- **SRE Focus**: Site Reliability Engineering principles with infrastructure automation
-- **Real-world Application**: 22 practical demos for hands-on learning
-- **Career Advancement**: High demand for Terraform skills in the market
+- **Real-world DevOps Projects**: Apply learned skills in practical scenarios
+- **AWS Certification**: Pursue AWS Certified CloudOps Engineer Associate
+- **GitOps Practices**: Implement modern deployment methodologies
+- **Career Advancement**: Build portfolio with real-world project implementations
 
 ## 📖 Resources
 
