@@ -15,3 +15,13 @@ a file or directory.
 `lsblk` - Lists information about all available or specified block devices.
 `dmesg` - Displays kernel-related messages, useful for troubleshooting hardware issues.
 `df -hP` - Shows disk space usage in a human-readable format with POSIX compliance.
+
+## Check for available package managers
+
+```bash
+command -v apt apt-get
+command -v dnf yum
+command -v zypper
+command -v apk
+command -v pacman
+```
