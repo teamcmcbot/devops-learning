@@ -15,6 +15,7 @@ a file or directory.
 `lsblk` - Lists information about all available or specified block devices.
 `dmesg` - Displays kernel-related messages, useful for troubleshooting hardware issues.
 `df -hP` - Shows disk space usage in a human-readable format with POSIX compliance.
+`update-alternatives --display editor` - Displays the current alternatives for the 'editor' command.
 
 ## Check for available package managers
 
@@ -25,3 +26,21 @@ command -v zypper
 command -v apk
 command -v pacman
 ```
+
+## Find Commands
+
+`find /path -name <filename>` - Searches for files and directories by name starting from the specified path.
+`find /path -type f -size +100M` - Finds files larger than 100MB.
+`find /path -type d -perm 755` - Finds directories with specific permissions.
+`find /path -mtime -7` - Finds files modified in the last 7 days.
+`locate <filename>` - Quickly finds files by name using a pre-built database.
+
+## Grep Commands
+
+`grep 'pattern' <file>` - Searches for a specific pattern in a file.
+`grep -r 'pattern' /path` - Recursively searches for a pattern in all files within a directory.
+`grep -i 'pattern' <file>` - Searches for a pattern in a case-insensitive manner.
+`grep -n 'pattern' <file>` - Displays line numbers along with matching lines.
+`grep -v 'pattern' <file>` - Displays lines that do not match the specified pattern.
+`grep -E 'pattern1|pattern2' <file>` - Uses extended regular expressions to search for multiple patterns.
+`ps aux | grep 'process_name'` - Searches for a specific process in the list of running processes.

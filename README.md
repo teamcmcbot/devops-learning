@@ -139,9 +139,30 @@ Each folder contains:
     - Learned and implemented all Terraform Provisioners
     - Worked with Terraform Modules (Public and Local Modules)
 
+**KodeKloud Engineer Challenges - ✅ IN PROGRESS**
+
+- **Hands-on Practice** 🧩
+  - Platform: [engineer.kodekloud.com](https://engineer.kodekloud.com)
+  - **Status**: Ongoing
+  - **Focus**: Daily/short challenges to reinforce real-world DevOps skills
+  - **Challenges Covered**:
+    - 100 Days of DevOps
+    - 100 Days of AWS
+    - Terraform challenges (and other KodeKloud challenge tracks)
+  - **Notes/Work**: See [`kodekloud/`](./kodekloud/) for my challenge notes and artifacts
+
+**Terraform Associate (004) Certification Preparation - ✅ COURSE COMPLETED**
+
+- **KodeKloud Course** 🎓
+  - [Terraform Associate Certification (HashiCorp Certified)](https://learn.kodekloud.com/user/courses/terraform-associate-certification-hashicorp-certified)
+  - **Status**: ✅ Completed
+  - **Certificate**: [KodeKloud Certificate of Completion](https://learn.kodekloud.com/user/certificate/0ec99c8f-66dc-4178-bd64-e64c8efab900)
+  - **Goal**: Prepare for HashiCorp Certified: Terraform Associate (004)
+  - **Target Exam Date**: Jan 2026
+
 ### 📋 Current Learning Plan (December 2025)
 
-**Focus: Advanced Projects & AWS Certification**
+**Focus: Terraform Associate (004) Exam + Continued Hands-on Practice**
 
 #### Upcoming Courses
 
@@ -152,6 +173,7 @@ Each folder contains:
 ### 🎯 What's Next?
 
 - **Real-world DevOps Projects**: Apply learned skills in practical scenarios
+- **Terraform Certification**: Sit for Terraform Associate (004) in Jan 2026
 - **AWS Certification**: Pursue AWS Certified CloudOps Engineer Associate
 - **GitOps Practices**: Implement modern deployment methodologies
 - **Career Advancement**: Build portfolio with real-world project implementations
