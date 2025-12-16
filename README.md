@@ -139,6 +139,13 @@ Each folder contains:
     - Learned and implemented all Terraform Provisioners
     - Worked with Terraform Modules (Public and Local Modules)
 
+**Linux Basics - ✅ COURSE COMPLETED**
+
+- **KodeKloud Course** 🎓
+  - [Learning Linux Basics Course Labs](https://learn.kodekloud.com/user/courses/learning-linux-basics-course-labs)
+  - **Status**: ✅ Completed
+  - **Certificate**: [KodeKloud Certificate of Completion](https://learn.kodekloud.com/user/certificate/b6743a40-f401-4839-aa16-815d8f33b193)
+
 **KodeKloud Engineer Challenges - ✅ IN PROGRESS**
 
 - **Hands-on Practice** 🧩
