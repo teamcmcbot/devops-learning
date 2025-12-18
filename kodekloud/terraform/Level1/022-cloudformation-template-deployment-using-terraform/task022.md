@@ -1,0 +1,14 @@
+# Task 022 - CloudFormation Template Deployment using Terraform
+
+The Nautilus DevOps team is working on automating infrastructure deployment using AWS CloudFormation. As part of this effort, they need to create a CloudFormation stack that provisions an S3 bucket with versioning enabled.
+
+Create a CloudFormation stack named `xfusion-stack` using Terraform. This stack should contain an S3 bucket named `xfusion-bucket-7639` as a resource, and the bucket must have `versioning enabled`. The Terraform working directory is /home/bob/terraform. Create the main.tf file (do not create a different .tf file) to accomplish this task.
+
+## Verifications
+
+```bash
+aws cloudformation list-stack-resources \
+  --stack-name xfusion-stack \
+  --query "StackResourceSummaries[?ResourceType=='AWS::S3::Bucket'].[LogicalResourceId,PhysicalResourceId,ResourceStatus]" \
+  --output table
+```
