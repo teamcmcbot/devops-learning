@@ -34,3 +34,5 @@ Note:
 3. Go to "Manage Jenkins" > "Plugins" > "Available" tab. Search for "Project-based Matrix Authorization Strategy" plugin, install it, and restart Jenkins when prompted.
 
 4. After Jenkins restarts, log in again with the `admin` user. Navigate to "Manage Jenkins" > "Configure Global Security". Select "Project-based Matrix Authorization Strategy".
+
+5. In the permissions matrix, assign `Overall Read` permission to the `anita` user. Remove all permissions for `Anonymous` users. Ensure that the `admin` user retains `Overall Administer` permissions.
