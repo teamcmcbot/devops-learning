@@ -193,6 +193,20 @@ Each folder contains:
     - Demonstrated proficiency in Infrastructure as Code (IaC) with Terraform
     - Validated skills in Terraform workflow, configuration, state management, and modules
 
+**Docker Training Course for the Absolute Beginner - ✅ COMPLETED**
+
+- **KodeKloud Course** 🎓
+  - [Docker Training Course for the Absolute Beginner](https://learn.kodekloud.com/user/courses/docker-training-course-for-the-absolute-beginner)
+  - **Status**: ✅ Completed
+  - **Completion Date**: 12-Jan-2026
+  - **Certificate**: [KodeKloud Certificate of Completion](https://learn.kodekloud.com/user/certificate/4d80777c-1c4a-4d93-81d2-6c9f836c3225)
+  - **Part of**: CKA Learning Path Preparation
+  - **Key Learning Outcomes**:
+    - Docker fundamentals and container concepts
+    - Docker images, containers, and volumes
+    - Docker networking and container orchestration basics
+    - Hands-on practice with Docker commands and workflows
+
 ### 📋 Current Learning Plan (January 2026)
 
 **Focus: Certified Kubernetes Administrator (CKA) Certification Preparation**
