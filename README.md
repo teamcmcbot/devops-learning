@@ -167,11 +167,50 @@ Each folder contains:
   - **Goal**: Prepare for HashiCorp Certified: Terraform Associate (004)
   - **Target Exam Date**: Jan 2026
 
-### 📋 Current Learning Plan (December 2025)
+**Learn By Doing: AWS Workshop with Terraform - ✅ COMPLETED**
 
-**Focus: Terraform Associate (004) Exam + Continued Hands-on Practice**
+- **KodeKloud Course** 🎓
+  - [Learn By Doing: AWS Workshop with Terraform](https://learn.kodekloud.com/user/courses/learn-by-doing-aws-workshop-with-terraform)
+  - **Status**: ✅ Completed
+  - **Certificate**: [KodeKloud Certificate of Completion](https://learn.kodekloud.com/user/certificate/bc4f7261-a2f5-4372-93cc-299d50cb8f84)
+  - **Focus**: Hands-on AWS infrastructure deployment with Terraform
+  - **Key Learning Outcomes**:
+    - Practical AWS resource provisioning with Terraform
+    - Real-world infrastructure scenarios and best practices
+    - Applied Terraform skills in AWS environment
 
-#### Upcoming Courses
+#### January 2026
+
+**HashiCorp Certified: Terraform Associate (004) - ✅ PASSED**
+
+- **Certification** 🎖️
+  - [HashiCorp Certified: Terraform Associate (004)](https://www.credly.com/badges/8352ac29-00c5-49f5-9784-441dd3f3356c)
+  - **Status**: ✅ PASSED
+  - **Exam Date**: 9-Jan-2026
+  - **Badge**: [Credly Badge](https://www.credly.com/badges/8352ac29-00c5-49f5-9784-441dd3f3356c)
+  - **Key Achievement**:
+    - Successfully passed HashiCorp Certified: Terraform Associate (004) certification
+    - Demonstrated proficiency in Infrastructure as Code (IaC) with Terraform
+    - Validated skills in Terraform workflow, configuration, state management, and modules
+
+### 📋 Current Learning Plan (January 2026)
+
+**Focus: Certified Kubernetes Administrator (CKA) Certification Preparation**
+
+- **KodeKloud CKA Learning Path** 🎓
+  - [CKA Learning Path](https://kodekloud.com/learning-path/cka)
+  - **Status**: 🔄 In Progress
+  - **Goal**: Prepare for Certified Kubernetes Administrator (CKA) certification
+  - **Timeline**: Next 2 months (Jan-Feb 2026)
+  - **Key Topics**:
+    - Kubernetes cluster architecture and components
+    - Workloads and scheduling
+    - Services and networking
+    - Storage and persistent volumes
+    - Security and RBAC
+    - Troubleshooting and monitoring
+
+#### Future Learning Goals
 
 - **Continuous Learning** 🚀
   - [DevOps Projects | Real Time DevOps & GitOps Projects](https://www.udemy.com/course/devopsprojects/)
@@ -179,8 +218,8 @@ Each folder contains:
 
 ### 🎯 What's Next?
 
+- **CKA Certification**: Prepare and sit for Certified Kubernetes Administrator exam (Target: Feb-Mar 2026)
 - **Real-world DevOps Projects**: Apply learned skills in practical scenarios
-- **Terraform Certification**: Sit for Terraform Associate (004) in Jan 2026
 - **AWS Certification**: Pursue AWS Certified CloudOps Engineer Associate
 - **GitOps Practices**: Implement modern deployment methodologies
 - **Career Advancement**: Build portfolio with real-world project implementations
