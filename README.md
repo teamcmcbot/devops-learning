@@ -207,22 +207,42 @@ Each folder contains:
     - Docker networking and container orchestration basics
     - Hands-on practice with Docker commands and workflows
 
+**Kubernetes for the Absolute Beginners - Hands-on Tutorial - ✅ COMPLETED**
+
+- **KodeKloud Course** 🎓
+  - [Kubernetes for the Absolute Beginners - Hands-on Tutorial](https://learn.kodekloud.com/user/courses/kubernetes-for-the-absolute-beginners-hands-on-tutorial)
+  - **Status**: ✅ Completed
+  - **Completion Date**: 15-Jan-2026
+  - **Certificate**: [KodeKloud Certificate of Completion](https://learn.kodekloud.com/user/certificate/6b4c59ba-6845-43dc-88ed-f5400b89fb03)
+  - **Part of**: CKA Learning Path Preparation
+  - **Key Learning Outcomes**:
+    - Kubernetes fundamentals and core concepts
+    - Pods, ReplicaSets, and Deployments
+    - Services and networking basics
+    - YAML configuration files
+    - kubectl commands and basic troubleshooting
+
 ### 📋 Current Learning Plan (January 2026)
 
 **Focus: Certified Kubernetes Administrator (CKA) Certification Preparation**
 
-- **KodeKloud CKA Learning Path** 🎓
-  - [CKA Learning Path](https://kodekloud.com/learning-path/cka)
+- **CKA Certification Course - Certified Kubernetes Administrator** 🎓
+  - [CKA Certification Course](https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator)
   - **Status**: 🔄 In Progress
-  - **Goal**: Prepare for Certified Kubernetes Administrator (CKA) certification
-  - **Timeline**: Next 2 months (Jan-Feb 2026)
+  - **Started**: 15-Jan-2026
+  - **Duration**: 25.52 Hours
+  - **Expected Completion**: 1-2 weeks (End of Jan 2026)
+  - **Goal**: Prepare for Certified Kubernetes Administrator (CKA) certification exam
   - **Key Topics**:
-    - Kubernetes cluster architecture and components
-    - Workloads and scheduling
-    - Services and networking
-    - Storage and persistent volumes
-    - Security and RBAC
-    - Troubleshooting and monitoring
+    - Core concepts: Cluster architecture, API primitives, services & networking
+    - Scheduling: Labels, selectors, resource limits, manual scheduling
+    - Logging & Monitoring: Application logs, monitor cluster components
+    - Application Lifecycle Management: Rolling updates, rollbacks, ConfigMaps, Secrets
+    - Cluster Maintenance: OS upgrades, cluster upgrades, backup and restore
+    - Security: Authentication, authorization, RBAC, security contexts, network policies
+    - Storage: Persistent volumes, persistent volume claims, storage classes
+    - Networking: CNI, DNS, Ingress
+    - Troubleshooting: Application, control plane, worker nodes
 
 #### Future Learning Goals
 
