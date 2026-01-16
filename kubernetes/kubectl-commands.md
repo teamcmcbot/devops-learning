@@ -163,8 +163,23 @@ kubectl drain <node-name> --ignore-daemonsets --delete-emptydir-data
 # Taint nodes
 kubectl taint nodes <node-name> <key>=<value>:<effect>
 
-# Remove taint
-kubectl taint nodes <node-name> <key>:<effect>-
+# Effect options:
+# - NoSchedule: New pods won't be scheduled on the node (existing pods remain)
+# - PreferNoSchedule: Scheduler tries to avoid placing pods on the node (soft constraint)
+# - NoExecute: New pods won't be scheduled AND existing pods without tolerations are evicted
+
+# Examples:
+kubectl taint nodes node1 key1=value1:NoSchedule
+kubectl taint nodes node1 key1=value1:PreferNoSchedule
+kubectl taint nodes node1 key1=value1:NoExecute
+
+# Remove taint (multiple options)
+kubectl taint nodes <node-name> <key>=<value>:<effect>-   # Remove specific taint
+kubectl taint nodes <node-name> <key>-                     # Remove all taints with this key
+
+# Examples:
+kubectl taint nodes node1 key1=value1:NoSchedule-
+kubectl taint nodes node1 key1-
 
 # Get node conditions
 kubectl get nodes -o jsonpath='{.items[*].status.conditions[?(@.type=="Ready")].status}'
