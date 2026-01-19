@@ -16,5 +16,5 @@ spec:
         key: value
     spec:
       containers:
-        - name: myapp
-          image: <Image>
+      - name: myapp
+        image: <Image>
