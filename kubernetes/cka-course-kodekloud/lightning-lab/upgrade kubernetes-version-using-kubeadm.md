@@ -1,0 +1,127 @@
+## Cluster Maintenance - upgrade kubernetes version using kubeadm
+
+Upgrade the current version of kubernetes from 1.33.0 to 1.34.0 exactly using the kubeadm utility. Make sure that the upgrade is carried out one node at a time starting with the controlplane node. To minimize downtime, the deployment gold-nginx should be rescheduled on an alternate node before upgrading each node.
+
+Upgrade controlplane node first and drain node node01 before upgrading it. Pods for gold-nginx should run on the controlplane node subsequently.
+
+## Solution
+
+Here is the solution for this task. Please note that the output of these commands have not been added here.
+
+To seamlessly transition from Kubernetes v1.32 to v1.34 and gain access to the packages specific to the desired Kubernetes minor version, follow these essential steps during the upgrade process. This ensures that your environment is appropriately configured and aligned with the features and improvements introduced in Kubernetes v1.34.
+
+On the controlplane node:
+
+Use any text editor you prefer to open the file that defines the Kubernetes apt repository.
+
+```bash
+vim /etc/apt/sources.list.d/kubernetes.list
+```
+
+Update the version in the URL to the next available minor release, i.e v1.34.
+
+deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.34/deb/ /
+
+After making changes, save the file and exit from your text editor. Proceed with the next instruction.
+
+```bash
+kubectl drain controlplane --ignore-daemonsets
+apt update
+apt-cache madison kubeadm
+```
+
+Based on the version information displayed by apt-cache madison, it indicates that for Kubernetes version 1.34.0, the available package version is 1.34.0-1.1. Therefore, to install kubeadm for Kubernetes v1.34.0, use the following command:
+
+```bash
+apt-get install kubeadm=1.34.0-1.1
+```
+
+Run the following command to upgrade the Kubernetes cluster.
+
+```bash
+kubeadm upgrade plan v1.34.0
+kubeadm upgrade apply v1.34.0
+```
+
+Now, upgrade the version and restart Kubelet. Also, mark the node (in this case, the "controlplane" node) as schedulable.
+
+```bash
+apt-get install kubelet=1.34.0-1.1
+systemctl daemon-reload
+systemctl restart kubelet
+kubectl uncordon controlplane
+```
+
+Before draining node01, if the controlplane gets taint during an upgrade, we have to remove it.
+
+# Identify the taint first.
+
+```bash
+kubectl describe node controlplane | grep -i taint
+```
+
+# Remove the taint with help of "kubectl taint" command.
+
+```bash
+kubectl taint node controlplane node-role.kubernetes.io/control-plane:NoSchedule-
+```
+
+# Verify it, the taint has been removed successfully.
+
+```bash
+kubectl describe node controlplane | grep -i taint
+```
+
+Now, drain the node01 as follows: -
+
+```bash
+kubectl drain node01 --ignore-daemonsets
+```
+
+SSH to the node01 and perform the below steps as follows: -
+
+Use any text editor you prefer to open the file that defines the Kubernetes apt repository.
+
+```bash
+vim /etc/apt/sources.list.d/kubernetes.list
+```
+
+Update the version in the URL to the next available minor release, i.e v1.34.
+
+deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.34/deb/ /
+
+After making changes, save the file and exit from your text editor. Proceed with the next instruction.
+
+```bash
+apt update
+apt-cache madison kubeadm
+```
+
+Based on the version information displayed by apt-cache madison, it indicates that for Kubernetes version 1.34.0, the available package version is 1.34.0-1.1. Therefore, to install kubeadm for Kubernetes v1.34.0, use the following command:
+
+```bash
+apt-get install kubeadm=1.34.0-1.1
+```
+
+# Upgrade the node
+
+```bash
+kubeadm upgrade node
+```
+
+Now, upgrade the version and restart Kubelet.
+
+```bash
+apt-get install kubelet=1.34.0-1.1
+systemctl daemon-reload
+systemctl restart kubelet
+```
+
+To exit from the specific node, type exit or logout on the terminal.
+
+Back on the controlplane node: -
+
+```bash
+kubectl uncordon node01
+kubectl get pods -o wide | grep gold # make sure this is scheduled on a node
+```
