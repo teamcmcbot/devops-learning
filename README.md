@@ -222,31 +222,52 @@ Each folder contains:
     - YAML configuration files
     - kubectl commands and basic troubleshooting
 
-### 📋 Current Learning Plan (January 2026)
+#### February 2026
 
-**Focus: Certified Kubernetes Administrator (CKA) Certification Preparation**
+**Certified Kubernetes Administrator (CKA) Course - ✅ COMPLETED**
 
-- **CKA Certification Course - Certified Kubernetes Administrator** 🎓
-  - [CKA Certification Course](https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator)
-  - **Status**: 🔄 In Progress
-  - **Started**: 15-Jan-2026
+- **KodeKloud Course** 🎓
+  - [CKA Certification Course - Certified Kubernetes Administrator](https://learn.kodekloud.com/courses/cka-certification-course-certified-kubernetes-administrator)
+  - **Status**: ✅ COMPLETED
+  - **Completion Date**: 5-Feb-2026
+  - **Certificate**: [KodeKloud Certificate of Completion](https://learn.kodekloud.com/user/certificate/c0ab3d14-bbed-4857-8a41-3cd1c7f486bd)
   - **Duration**: 25.52 Hours
-  - **Expected Completion**: 1-2 weeks (End of Jan 2026)
-  - **Goal**: Prepare for Certified Kubernetes Administrator (CKA) certification exam
-  - **Key Topics**:
+  - **Key Learning Outcomes**:
     - Core concepts: Cluster architecture, API primitives, services & networking
-    - Scheduling: Labels, selectors, resource limits, manual scheduling
+    - Scheduling: Labels, selectors, resource limits, manual scheduling, DaemonSets
     - Logging & Monitoring: Application logs, monitor cluster components
-    - Application Lifecycle Management: Rolling updates, rollbacks, ConfigMaps, Secrets
-    - Cluster Maintenance: OS upgrades, cluster upgrades, backup and restore
-    - Security: Authentication, authorization, RBAC, security contexts, network policies
+    - Application Lifecycle Management: Rolling updates, rollbacks, ConfigMaps, Secrets, multi-container pods
+    - Cluster Maintenance: OS upgrades, cluster upgrades, backup and restore with ETCD
+    - Security: Authentication, authorization, RBAC, security contexts, network policies, TLS certificates
     - Storage: Persistent volumes, persistent volume claims, storage classes
-    - Networking: CNI, DNS, Ingress
-    - Troubleshooting: Application, control plane, worker nodes
+    - Networking: CNI, DNS, CoreDNS, Ingress controllers, network policies
+    - Troubleshooting: Application, control plane, worker nodes, networking issues
+    - Advanced topics: JSON PATH, custom resource definitions, operator framework
+
+### 📋 Current Learning Plan (February 2026)
+
+**Focus: Certified Kubernetes Administrator (CKA) Certification Exam Preparation**
+
+- **Ultimate CKA Mock Exam Series** 🎓
+  - [Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series](https://learn.kodekloud.com/user/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam-series)
+  - **Status**: 🔄 In Progress
+  - **Part of**: CKA Learning Path
+  - **Focus**: Practice exam simulations and hands-on scenarios
+  - **Goal**: Master exam format and time management before taking the actual CKA certification exam
+
+- **CKA Certification Exam** 🎯
+  - **Target Exam Date**: End of February or Early March 2026
+  - **Status**: 🔄 Preparing for exam
+  - **Preparation Activities**:
+    - Complete Ultimate CKA Mock Exam Series
+    - Review CKA course materials and key concepts
+    - Hands-on practice with kubectl commands and cluster troubleshooting
+    - Time management and exam strategy preparation
 
 #### Future Learning Goals
 
 - **Continuous Learning** 🚀
+  - [AWS EKS Kubernetes Karpenter DevOps Production](https://www.udemy.com/course/aws-eks-kubernetes-karpenter-devops-production/)
   - [DevOps Projects | Real Time DevOps & GitOps Projects](https://www.udemy.com/course/devopsprojects/)
   - [AWS Certified CloudOps Engineer Associate SOA-C03 2025](https://www.udemy.com/course/aws-certified-cloudops-associate/)
 
