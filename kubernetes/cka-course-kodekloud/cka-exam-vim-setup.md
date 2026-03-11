@@ -46,3 +46,47 @@ export KUBE_EDITOR="vim"
 export PS1="\h $ "
 export PAGER=less
 ```
+
+
+## Killer.sh
+
+### Settings
+
+If vim is not configured properly (e.g., issues with pasting copied content), configure via `~/.vimrc` or by entering manually in vim command mode (`:set ...`):
+
+```bash
+set tabstop=2
+set expandtab
+set shiftwidth=2
+```
+
+- `expandtab` makes sure to use spaces for tabs.
+
+> **Note:** Changes in `~/.vimrc` will not be transferred when connecting to other instances via `ssh`.
+
+### Toggle Line Numbers
+
+| Action | Command |
+|---|---|
+| Show line numbers | `:set number` |
+| Hide line numbers | `:set nonumber` |
+| Jump to line 22 | `:22` + `Enter` |
+
+- Useful for finding syntax errors based on line numbers
+- Can be annoying when wanting to select & copy with mouse
+
+### Copy & Paste
+
+| Action | Keys |
+|---|---|
+| Mark lines | `Esc` + `V` (then arrow keys) |
+| Copy marked lines | `y` |
+| Cut marked lines | `d` |
+| Paste lines | `p` (after) or `P` (before) |
+
+### Indent Multiple Lines
+
+1. Set indent width: `:set shiftwidth=2`
+2. Mark multiple lines: `Shift` + `V` then arrow keys
+3. Indent: `>` (right) or `<` (left)
+4. Repeat last action: `.`
