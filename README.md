@@ -271,10 +271,25 @@ Each folder contains:
     - Demonstrated proficiency in Kubernetes cluster administration
     - Validated skills in cluster architecture, networking, storage, security, and troubleshooting
 
+**Ultimate DevOps Real-World Project Implementation AWS Cloud - 🔄 IN PROGRESS**
+
+- **Udemy Course** 💰
+  - [AWS EKS Kubernetes Karpenter DevOps Production](https://www.udemy.com/course/aws-eks-kubernetes-karpenter-devops-production/)
+  - **Status**: 🔄 In Progress (Section 15 of 51 completed — 29.0%)
+  - **Duration**: 38 hr 16 min total
+  - **Key Topics**:
+    - Docker, Docker Compose, Docker Buildx
+    - Terraform (Basics, Advanced, Modules, State Management)
+    - AWS EKS Cluster with Terraform
+    - Kubernetes (Pods, Deployments, Services, ConfigMaps, StatefulSets, Secrets, Storage, Ingress)
+    - Helm Charts
+    - Karpenter & Horizontal Pod Autoscaler
+    - Observability with OpenTelemetry (X-Ray, CloudWatch, Prometheus/Grafana)
+    - CI/CD with GitHub Actions & ArgoCD
+
 #### Future Learning Goals
 
 - **Continuous Learning** 🚀
-  - [AWS EKS Kubernetes Karpenter DevOps Production](https://www.udemy.com/course/aws-eks-kubernetes-karpenter-devops-production/)
   - [DevOps Projects | Real Time DevOps & GitOps Projects](https://www.udemy.com/course/devopsprojects/)
   - [AWS Certified CloudOps Engineer Associate SOA-C03 2025](https://www.udemy.com/course/aws-certified-cloudops-associate/)
 
