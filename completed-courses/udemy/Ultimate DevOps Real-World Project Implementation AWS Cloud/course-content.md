@@ -58,6 +58,6 @@ Total: 38 hr 16 min (51 sections)
 
 ## Progress
 
-Completed Section 1 to 15.
-- Completed: 11 hr 6 min / 38 hr 16 min (29.0%)
-- Remaining: 27 hr 10 min (Sections 16–51)
+Completed Section 1 to 19.
+- Completed: 13 hr 18 min / 38 hr 16 min (34.8%)
+- Remaining: 24 hr 58 min (Sections 20–51)
