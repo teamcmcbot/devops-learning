@@ -275,7 +275,7 @@ Each folder contains:
 
 - **Udemy Course** 💰
   - [AWS EKS Kubernetes Karpenter DevOps Production](https://www.udemy.com/course/aws-eks-kubernetes-karpenter-devops-production/)
-  - **Status**: 🔄 In Progress (Section 24 of 51 completed — 41.4%)
+  - **Status**: 🔄 In Progress (Section 30 of 51 completed — 48.7%)
   - **Duration**: 38 hr 16 min total
   - **Key Topics**:
     - Docker, Docker Compose, Docker Buildx
