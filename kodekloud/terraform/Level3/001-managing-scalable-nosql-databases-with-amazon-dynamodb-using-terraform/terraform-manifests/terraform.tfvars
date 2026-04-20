@@ -1,0 +1,1 @@
+KKE_TABLE_NAME = "devops-tasks"
