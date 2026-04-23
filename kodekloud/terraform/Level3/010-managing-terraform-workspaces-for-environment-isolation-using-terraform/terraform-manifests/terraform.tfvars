@@ -1,0 +1,1 @@
+KKE_API_NAMES = ["devops-api-1", "devops-api-2"]
