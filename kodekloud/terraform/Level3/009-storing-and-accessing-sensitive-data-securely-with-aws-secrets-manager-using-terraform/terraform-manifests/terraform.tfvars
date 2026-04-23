@@ -1,0 +1,1 @@
+KKE_DB_PASSWORD = "SuperSecretPassword123!"
