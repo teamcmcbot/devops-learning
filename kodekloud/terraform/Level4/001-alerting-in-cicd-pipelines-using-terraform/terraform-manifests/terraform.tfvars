@@ -1,0 +1,7 @@
+KKE_STAGING_BUCKET_NAME = "nautilus-staging-4044"
+KKE_FIREHOSE_ROLE_NAME = "nautilus-firehose-role"
+KKE_FIREHOSE_POLICY_NAME = "nautilus-firehose-policy"
+KKE_FIREHOSE_NAME = "nautilus-firehose"
+KKE_SNS_TOPIC_NAME = "nautilus-alert-topic"
+KKE_CLOUDWATCH_ALARM_NAME = "nautilus-firehose-failures"
+KKE_ALERT_EMAIL = "nautilus@example.com"
