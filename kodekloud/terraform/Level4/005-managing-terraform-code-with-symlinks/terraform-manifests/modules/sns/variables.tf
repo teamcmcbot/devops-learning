@@ -1,0 +1,1 @@
+/Users/zhenwei.seo/github/devops-learning/kodekloud/terraform/Level4/005-managing-terraform-code-with-symlinks/terraform-manifests/variables.tf
